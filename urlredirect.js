@@ -3,9 +3,9 @@ $(document).ready(function () {
         e.preventDefault(); 
         var target = e.target || e.srcElement; 
         if ($(target).attr('target') == "_blank") { 
-            window.open("http://fulfilmyrequest.blogspot.com/p/links-to-related-articles.html?url=" + $(target).attr('href'), '_blank'); 
+            window.open("http://fulfilmyrequest.blogspot.com/p/demo.html?url=" + $(target).attr('href'), '_blank'); 
         } else { 
-            window.location = "http://fulfilmyrequest.blogspot.com/p/links-to-related-articles.html?url=" + $(target).attr('href'); 
+            window.location = "http://fulfilmyrequest.blogspot.com/p/demo.html?url=" + $(target).attr('href'); 
         }
     });
 
@@ -13,9 +13,9 @@ $(document).ready(function () {
         e.preventDefault(); 
         var target = e.target || e.srcElement; 
         if ($(target).attr('target') == "_blank") { 
-            window.open("http://fulfilmyrequest.blogspot.com/p/videos.html?url=" + $(target).attr('href'), '_blank'); 
+            window.open("http://fulfilmyrequest.blogspot.com/p/download_10.html?url=" + $(target).attr('href'), '_blank'); 
         } else { 
-            window.location = "http://fulfilmyrequest.blogspot.com/p/videos.html?url=" + $(target).attr('href'); 
+            window.location = "http://fulfilmyrequest.blogspot.com/p/download_10.html?url=" + $(target).attr('href'); 
         }
     });
 });
